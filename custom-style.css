@@ -1,0 +1,18 @@
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.img-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
