@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <div class="card mt-5">
-                    <div class="card-body text-dark"> <!-- Add text-dark class here -->
+                    <div class="card-body text-dark">
                         <h1 class="card-title text-center">Définir l'image de profil</h1>
 
                         <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#profileModal">
@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                         <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content bg-dark text-light"> <!-- Add bg-dark and text-light classes here -->
+        <div class="modal-content bg-dark text-light">
             <form id="profileForm" method="post" action="">
                 <div class="modal-header">
                     <h5 class="modal-title" id="profileModalLabel">Choisissez votre image de profil</h5>

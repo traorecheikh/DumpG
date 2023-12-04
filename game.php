@@ -46,9 +46,8 @@ if (isset($_POST['userGuess'])) {
     <title>Jeu de devinette</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <style>
-        /* Custom CSS for darker input background */
         input[type="text"].custom-background {
-            background-color: #2d3748; /* You can adjust the color as needed */
+            background-color: #2d3748;
         }
     </style>
 </head>
